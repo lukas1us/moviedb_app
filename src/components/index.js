@@ -1,20 +1,20 @@
 export {
-    default as PopularMovies
+    default as CarouselComponent
 }
-from "./PopularMovies/PopularMovies";
-export {
-    default as PopularShows
-}
-from "./PopularShows/PopularShows";
-export {
-    default as Family
-}
-from "./Family/Family";
-export {
-    default as Documentary
-}
-from "./Documentary/Documentary";
+from "./CarouselComponent/CarouselComponent";
 export {
     default as Header
 }
 from "./Header/Header";
+export {
+    default as MovieDetail
+}
+from "./MovieDetail/MovieDetail";
+export {
+    default as Search
+}
+from "./Search/Search";
+export {
+    default as MediaModal
+}
+from "./MediaModal/MediaModal";

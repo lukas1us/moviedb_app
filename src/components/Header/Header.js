@@ -1,9 +1,16 @@
 import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
 
 const Header = () => {
   return (
     <header>
-      <h1>Moviedb_app</h1>
+      <Navbar bg="dark" variant="dark">
+        <Navbar.Brand>Moviedb_app</Navbar.Brand>
+        <Nav className="mr-auto">
+          <Nav.Link href="/">Dashboard</Nav.Link>
+          <Nav.Link href="/Search">Search</Nav.Link>
+        </Nav>
+      </Navbar>
     </header>
   );
 };
