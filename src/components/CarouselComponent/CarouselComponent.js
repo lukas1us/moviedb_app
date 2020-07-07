@@ -31,7 +31,7 @@ const CarouselComponent = () => {
     const movies = data.map((item, index) => {
       return (
         <div key={index}>
-          <Link to={`/movie/${item.id}`}>
+          <Link to={`/moviedb_app/movie/${item.id}`}>
             <img className="no-poster" src={item.poster} alt="" />
           </Link>
         </div>

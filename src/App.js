@@ -8,12 +8,12 @@ export default function App() {
     <main>
       <Header />
       <Switch>
-        <Route path="/" component={CarouselComponent} exact></Route>
+        <Route path="/moviedb_app" component={CarouselComponent} exact></Route>
         <Route
-          path="/movie/:id"
+          path="/moviedb_app/movie/:id"
           render={(props) => <MovieDetail {...props} isAuthed={true} />}
         ></Route>
-        <Route path="/Search" component={Search}></Route>
+        <Route path="/moviedb_app/Search" component={Search}></Route>
       </Switch>
     </main>
   );

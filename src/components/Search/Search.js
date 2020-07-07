@@ -49,7 +49,7 @@ const Search = () => {
       if (item.poster !== "https://image.tmdb.org/t/p/originalnull") {
         return (
           <div key={index} className="searched-item">
-            <Link to={`/movie/${item.id}`}>
+            <Link to={`/moviedb_app/movie/${item.id}`}>
               <img className="no-poster" src={item.poster} alt={item.title} />
               <p>{item.title}</p>
             </Link>

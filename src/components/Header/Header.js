@@ -7,8 +7,8 @@ const Header = () => {
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand>Moviedb_app</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="/">Dashboard</Nav.Link>
-          <Nav.Link href="/Search">Search</Nav.Link>
+          <Nav.Link href="/moviedb_app">Dashboard</Nav.Link>
+          <Nav.Link href="/moviedb_app/Search">Search</Nav.Link>
         </Nav>
       </Navbar>
     </header>
