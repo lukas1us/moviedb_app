@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 API: https://www.themoviedb.org/documentation/api
 
+== created in 14 hours ==
+
 ### Packages
 
 - axios
